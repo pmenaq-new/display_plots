@@ -1,0 +1,42 @@
+# CSV Plotter
+
+## Descripción
+
+Esta aplicación permite visualizar datos en formato CSV en un gráfico. El usuario puede seleccionar las columnas que se usarán para los ejes X e Y, así como columnas adicionales para agrupar y facetar los datos. También hay opciones para renombrar los ejes y establecer límites personalizados para los ejes X e Y.
+
+## Características
+
+- Importa archivos CSV para visualización.
+- Personaliza el eje X e Y utilizando cualquier columna del archivo CSV.
+- Opción para agrupar datos basados en una columna específica.
+- Opción para facetar el gráfico basado en valores únicos de una columna específica.
+- Personaliza los nombres de los ejes X e Y.
+- Establece valores mínimos y máximos personalizados para los ejes X e Y.
+- Opción para guardar el gráfico en formatos de imagen como PNG o JPEG.
+
+## Uso
+
+1. Ejecuta la aplicación.
+2. Haz clic en "Import CSV" y selecciona un archivo CSV para cargarlo.
+3. Usa los cuadros combinados para seleccionar las columnas que deseas visualizar en los ejes X e Y, y para definir las opciones de agrupación y facetado.
+4. (Opcional) Ingresa nombres personalizados para los ejes X e Y y define valores mínimos y máximos.
+5. Haz clic en "Plot Data" para visualizar el gráfico.
+6. (Opcional) Haz clic en "Save Graph" para guardar el gráfico como una imagen.
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas: `tkinter`, `pandas`, `matplotlib`
+
+## Instalación
+
+1. Asegúrate de tener Python 3 instalado en tu sistema.
+2. Instala las bibliotecas necesarias con el comando:
+    ```
+    pip install pandas matplotlib
+    ```
+3. Ejecuta el script de la aplicación para iniciarla.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre una solicitud de cambio con tus modificaciones.
